@@ -33,7 +33,10 @@ function operate(equation)
 function getButtonDown(btn)
 {
     let displayText = document.getElementById("display");
-    displayText.innerText = btn;
+    if(displayText.innerText.length < 10)
+    {
+        displayText.innerText += btn;
+    }
 }
 
 let btns = document.querySelectorAll("#btn");
