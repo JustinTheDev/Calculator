@@ -3,39 +3,40 @@
     <head>
         <meta charset="UTF-8">
         <title>Calculator</title>
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
     </head>
     <body>
         <div id="container">
-            <div id="display">1234567890</div>
+            <div id="display"></div>
             <div class="row">
-                <button class="input">7</button>
-                <button class="input">8</button>
-                <button class="input">9</button>
-                <button class="input">+</button>
+                <button id = "btn" class="input">7</button>
+                <button id = "btn" class="input">8</button>
+                <button id = "btn" class="input">9</button>
+                <button id = "btn" class="input op">+</button>
             </div>
             <div class="row">
-                <button class="input">4</button>
-                <button class="input">5</button>
-                <button class="input">6</button>
-                <button class="input">-</button>
+                <button id = "btn" class="input">4</button>
+                <button id = "btn" class="input">5</button>
+                <button id = "btn" class="input">6</button>
+                <button id = "btn" class="input op">-</button>
             </div>
             <div class="row">
-                <button class="input">1</button>
-                <button class="input">2</button>
-                <button class="input">3</button>
-                <button class="input">/</button>
+                <button id = "btn" class="input">1</button>
+                <button id = "btn" class="input">2</button>
+                <button id = "btn" class="input">3</button>
+                <button id = "btn" class="input op">/</button>
             </div>
             <div class="row">
-                <button class="input">0</button>
-                <button class="input">.</button>
-                <button class="input">=</button>
-                <button class="input">*</button>
+                <button id = "btn" class="input">0</button>
+                <button id = "btn" class="input">.</button>
+                <button id = "btn" class="input op">x<sup>n</sup></button>
+                <button id = "btn" class="input op">*</button>
             </div>
             <div class="row">
-                <button class="input2">C</button>
-                <button class="input2">X<sup>n</sup></button>
+                <button id = "btn" class="input2 op">C</button>
+                <button id = "btn" class="input2 op">=</button>
             </div>
         </div>
     </body>
