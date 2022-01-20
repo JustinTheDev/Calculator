@@ -1,5 +1,5 @@
 body{
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron';
     background-color: rgb(161, 160, 159);
 }
 #container{
@@ -16,6 +16,7 @@ body{
 #display{
     margin: 15px;
     min-width: 370px;
+    border-radius:12px;
     height: 80px;
     background-color: rgb(219, 219, 219) ;
     text-align:right;
@@ -44,6 +45,7 @@ body{
     background-color:rgb(36, 36, 36);
     color:rgb(219, 219, 219);
     border-style: none;
+    font-family: inherit;
 }
 .input2{
     height: 95%;
@@ -53,6 +55,7 @@ body{
     font-size:48px;
     background-color:rgb(36, 36, 36);
     border-style: none;
+    font-family: inherit;
 }
 .op{
     color: rgb(73, 84, 92);
