@@ -17,6 +17,10 @@ function divide(num1, num2)
 {
     return(num1/num2);
 } 
+function exponent(num1, num2)
+{
+    return(num1**num2);
+}
 function operate(num1, op, num2)
 {
 
@@ -34,7 +38,8 @@ function operate(num1, op, num2)
         case "*":
             return(multiply(Number(num1), Number(num2)));
             break;
-        case "Xn":
+        case "xn":
+            return(exponent(Number(num1),Number(num2)));
             break;
     }
 }
